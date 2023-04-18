@@ -1,0 +1,65 @@
+/*@import "bootstrap.min.css";*/
+
+body {
+    background-color: #3e444a;
+    color: whitesmoke;
+}
+
+.titles {
+    color: #b7b0aa;
+}
+
+.sections {
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#header {
+    margin-top: 30px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#profilePic {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+#nameTitle{
+    display: inline-block;
+}
+
+a {
+    color: #b7b0aa;
+}
+
+.sections :is(input, select, button) {
+    width: 450px;
+    background-color: #b7b0aa;
+}
+
+#phone {
+    display: inline-block;
+    width: 295px;
+}
+
+#phonePrefix {
+    display: inline-block;
+    width: 150px;
+}
+
+#contactButton {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: block;
+}
+
+#backToTop {
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+}
